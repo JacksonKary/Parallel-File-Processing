@@ -3,7 +3,7 @@ Processes input files in parallel (written in C). This implementation simply cou
 
 This program uses pipes for parallel computation - one process for each file. Using processes for parallel computation eats up more system resources (memory, OS overhead, etc.) than threads, but processes offer more safety via isolation between tasks.
 
-For an example of parallel computation using multithreading, see my multithreaded http server project.
+#### For an example of parallel computation using multithreading, see my multithreaded http server: https://github.com/JacksonKary/Multithreaded-HTTP-Server
 
 ## This project uses a number of important systems programming topics:
 
