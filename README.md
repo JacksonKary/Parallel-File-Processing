@@ -1,7 +1,7 @@
 # Parallel-File-Processing
 Processes input files in parallel (written in C). This implementation simply counts the number of words in each text file, but the format could be extended to more meaningful work.
 
-This program uses pipes for parallel computation - one process for each file. Using processes for parallel computation eats up more system resources (memory, OS setup, etc.) than threads, but processes offer more safety via isolation between tasks.
+This program uses pipes for parallel computation - one process for each file. Using processes for parallel computation eats up more system resources (memory, OS overhead, etc.) than threads, but processes offer more safety via isolation between tasks.
 
 For an example of parallel computation using multithreading, see my multithreaded http server project.
 
