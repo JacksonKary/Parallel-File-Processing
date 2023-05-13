@@ -5,7 +5,7 @@ This program uses pipes for parallel computation - one process for each file. Us
 
 For an example of parallel computation using multithreading, see my multithreaded http server project.
 
-## This project uses a few important systems programming topics:
+## This project uses a number of important systems programming topics:
 
 - Text file input and parsing
 - Creating pipes with the pipe() system call
